@@ -28,5 +28,4 @@ echo "Usuario registrado exitosamente. ";
 pg_close($conexion);
 
 
-echo"<script>window.location.href = '../Archivos php/tabla.php';</script>";
 ?>
