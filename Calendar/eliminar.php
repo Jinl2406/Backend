@@ -18,7 +18,7 @@ $eventId = $_POST['eventId'];
 $eventId = pg_escape_string($conexion, $eventId);
 
 // Crear la consulta DELETE
-$query = "DELETE FROM eventos WHERE events = '$eventId'";
+$query = "DELETE FROM eventos WHERE id = '$eventId'";
 
 // Ejecutar la consulta
 $result = pg_query($conexion, $query);
